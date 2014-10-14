@@ -1,0 +1,44 @@
+@import "constants"
+// @import "mixins"
+
+// @import url('//fast.fonts.com/t/1.css?apiType=css&projectid=bc3e3e03-3975-457f-8c8c-431a71a361b0')
+
+// Loading fonts separately has not demonstrated significant improvement in performance.
+@font-face
+  // Light
+  font-family 'Open Sans'
+  font-style normal
+  font-weight 300
+  src url('../fonts/OpenSans-Light.eot?#iefix')
+  src url('../fonts/OpenSans-Light.eot?#iefix') format('eot'),
+      url('../fonts/OpenSans-Light.woff') format('woff'),
+      url('../fonts/OpenSans-Light.ttf') format('truetype'),
+      url('../fonts/OpenSans-Light.svg#OpenSansLight') format('svg')
+
+@font-face
+  // Regular
+  font-family 'Open Sans'
+  font-style normal
+  font-weight 400
+  src url('../fonts/OpenSans-Regular.eot?#iefix')
+  src url('../fonts/OpenSans-Regular.eot?#iefix') format('eot'),
+      url('../fonts/OpenSans-Regular.woff') format('woff'),
+      url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+      url('../fonts/OpenSans-Regular.svg#OpenSansLight') format('svg')
+
+@font-face
+  // Medium
+  font-family 'Open Sans'
+  font-style normal
+  font-weight 700
+  src url('../fonts/OpenSans-Bold.eot?#iefix')
+  src url('../fonts/OpenSans-Bold.eot?#iefix') format('eot'),
+      url('../fonts/OpenSans-Bold.woff') format('woff'),
+      url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+      url('../fonts/OpenSans-Bold.svg#OpenSansLight') format('svg')
+
+body
+  font-family global-fonts
+
+h1, h2, h3, h4, h5, h6
+  font-weight 700

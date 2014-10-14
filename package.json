@@ -1,0 +1,46 @@
+{
+  "author": "Alan Wong",
+  "name": "chaplin-mocha-grunt",
+  "description": "Chaplin Mocha Grunt Boilerplate",
+  "version": "0.0.1",
+  "homepage": "https://github.com/naganowl/chaplin-mocha-grunt",
+  "repository": "https://github.com/naganowl/chaplin-mocha-grunt.git",
+  "bugs": {
+      "url": "https://github.com/naganowl/chaplin-mocha-grunt/issues"
+    },
+  "contributors": [
+    "Alan Wong (http://github.com/naganowl)"
+  ],
+  "engines": {
+    "node": "~0.6.10 || 0.8 || 0.9"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "bower": "1.2.8",
+    "grunt": "0.4.1",
+    "grunt-cli": "0.1.13",
+
+    "grunt-contrib-clean": "0.5.0",
+    "grunt-contrib-coffee": "0.10.0",
+    "grunt-contrib-concat": "0.3.0",
+    "grunt-contrib-copy": "0.5.0",
+    "grunt-contrib-cssmin": "0.7.0",
+    "grunt-contrib-handlebars": "0.6.1",
+    "grunt-contrib-requirejs": "0.4.1",
+    "grunt-contrib-stylus": "0.12.0",
+    "grunt-shell": "0.6.4",
+
+    "load-grunt-tasks": "0.3.0"
+  },
+  "devDependencies": {
+    "grunt-bbb-server": "0.1.0-alpha.13",
+    "grunt-blanket-mocha": "git://github.com/ModelN/grunt-blanket-mocha.git#dc2c1b2",
+    "grunt-concurrent": "0.5.0",
+    "grunt-coffeelint": "0.0.8",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-newer": "0.6.1",
+    "grunt-notify": "0.2.17"
+  }
+}
