@@ -3,6 +3,7 @@ node_js:
 - "0.8"
 before_script:
 - npm install -g grunt-cli
+- bower install
 - git config --global user.email "travis@travis-ci.org"
 - git config --global user.name "travis-ci"
 language: node_js
