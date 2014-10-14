@@ -1,4 +1,4 @@
-chaplin-mocha-grunt
+chaplin-mocha-grunt [![Build Status](https://travis-ci.org/naganowl/chaplin-mocha-grunt.png?branch=master)](https://travis-ci.org/naganowl/chaplin-mocha-grunt)
 ===
 
 Web app boilerplate using the Chaplin framework with Mocha for tests and Grunt as the task runner.
