@@ -38,6 +38,7 @@ show all the files which is useful when inspecting branch coverage.
 
 ## Features
 
+- Utilizes RequireJS with almond to deliver modules in dev and single optimized file in production.
 - Font file specification for different font-weights of a given style.
 - Test mocks with Sinon and Chai, with jQuery assertions.
 - Templating with Handlebars with `view-helpers.coffee` to add helpers.
