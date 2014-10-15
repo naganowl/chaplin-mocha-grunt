@@ -10,10 +10,12 @@ Uses Stylus as the CSS pre-processor and CoffeeScript. Pages are hosted with Exp
 
 If you've never installed or used `npm` or `bower`, you can skip the associated `cache` commands.
 
-1. `npm cache clear`
-1. `npm install`
-1. `bower cache clean`
-1. `bower install`
+```
+npm cache clear
+npm install
+bower cache clean
+bower install
+```
 
 ### Starting up the app
 
