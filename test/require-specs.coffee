@@ -44,9 +44,6 @@ require {baseUrl: '../src'}, ['config'], ->
       # Create another global variable for simpler syntax.
       window.expect = chai.expect
 
-      # Normally the server provides this information
-      window.config = url_root: '/backoffice/'
-
       # Dynamically require all test files.
       $.ajax(
         url: '../testSpecs.txt'

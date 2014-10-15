@@ -1,4 +1,3 @@
-# TODO: Find a way to share this.
 if window.PHANTOMJS or window.location.search.indexOf('cov=true') >= 0
   # Synchronously get Blanket.
   request = new XMLHttpRequest()
@@ -9,6 +8,7 @@ if window.PHANTOMJS or window.location.search.indexOf('cov=true') >= 0
   script.type = 'text/javascript'
   # There is no event fired when HTML report is added to tests.
   script.text = request.responseText +
+    # Add checkbox to toggle uncovered branches/lines.
     """
     (function() {
       var report = blanket.report;
